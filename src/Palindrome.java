@@ -1,4 +1,13 @@
 public class Palindrome {
+    public static void main(String[] args) {
+        int a = 121;
+        int b = 1000;
+        int c = 1234554321;
+        System.out.println(isPalindrome(a));
+        System.out.println(isPalindrome(b));
+        System.out.println(isPalindrome(c));
+    }
+
     public static boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
