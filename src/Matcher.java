@@ -1,6 +1,7 @@
 public class Matcher {
     public static void main(String[] args) {
-
+        System.out.println(isMatch("abc", "a*bc"));
+        System.out.println(isMatch("ac", "a*c"));
     }
 
     public static boolean isMatch(String s, String p) {
